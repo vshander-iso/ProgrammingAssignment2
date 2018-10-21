@@ -7,8 +7,8 @@
 ## the value m is NULL serving as a flag that the inverse was not yet calculated
 ## when the cachesolve is first called with this object as an argument, 
 ## the inverse is calculated and stored in m.
-## subsequent calls of cashesolve with this object as an argument immediately return 
-## stored m
+## subsequent calls of cashesolve with this object as an argument 
+## immediately return stored m
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
